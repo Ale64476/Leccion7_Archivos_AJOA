@@ -1,4 +1,4 @@
-package Ejemplos.Especificacion;
+package Ejemplos.Especializacion;
 
 public abstract class FiguraGeometrica{
 	   public float Area;

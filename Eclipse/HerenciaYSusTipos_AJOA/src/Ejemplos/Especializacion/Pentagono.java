@@ -1,4 +1,4 @@
-package Ejemplos.Especificacion;
+package Ejemplos.Especializacion;
 
 public class Pentagono extends FiguraGeometrica{
     int perimetro;

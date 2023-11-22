@@ -1,12 +1,16 @@
 package Ejemplos.Especificacion;
 
-public class Cuadrado extends FiguraGeometrica{
-    float lado;
+public class Cuadrado extends Figuras {
     
-    public Cuadrado (float lado){
-        this.lado=lado;
+    int lado;
+    
+    public Cuadrado(int lado){
+        this.lado = lado;
     }
-    public float area(){
-        return lado*lado;
+    
+    public void area(){
+        int resultado = lado*lado;
+        System.out.println("El area del cuadrado es: " + resultado);
     }
+    
 }

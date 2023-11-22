@@ -1,4 +1,4 @@
-package Ejemplos.Especificacion;
+package Ejemplos.Especializacion;
 
 public class Rombo extends FiguraGeometrica{
     float diagonalMayor;

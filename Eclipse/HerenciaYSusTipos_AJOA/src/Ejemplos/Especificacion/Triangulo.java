@@ -1,16 +1,18 @@
 package Ejemplos.Especificacion;
 
-public class Triangulo extends FiguraGeometrica{
-    float base;
-    float altura;
+public class Triangulo extends Figuras {
+    
+    int base;
+    int altura;
     
     public Triangulo(int base, int altura){
-        this.base=(float)base;
-        this.altura=(float)altura;
+        this.base = base;
+        this.altura = altura;
     }
     
-    public float area(){
-        Area = (base*altura)/2;
-        return Area;  
+    public void area(){
+        float resultado = (float)((base*altura)/2);
+        System.out.println("El area del triangulo es: " + resultado);
     }
+    
 }

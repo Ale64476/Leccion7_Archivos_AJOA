@@ -1,4 +1,4 @@
-package Ejemplos.Especificacion;
+package Ejemplos.Especializacion;
 
 public class Hexagono extends FiguraGeometrica{
     float perimetro;

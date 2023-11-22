@@ -1,16 +1,18 @@
 package Ejemplos.Especificacion;
 
-public class Rectangulo extends FiguraGeometrica{
-    float base;
-    float altura;
+public class Rectangulo extends Figuras{
     
-    public Rectangulo(float base, float altura){
-        this.base=base;
-        this.altura=altura;
+    int base;
+    int altura;
+    
+    public Rectangulo(int base, int altura){
+        this.base = base;
+        this.altura = altura;
     }
     
-    public float area(){
-       Area = base*altura;
-       return Area; 
+    public void area(){
+        int resultado = base*altura;
+        System.out.println("El area del rectangulo es: " + resultado);
     }
+    
 }
